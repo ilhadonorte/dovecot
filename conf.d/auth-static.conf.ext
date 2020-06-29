@@ -13,12 +13,12 @@
 #  args = proxy=y host=%1Mu.example.com nopassword=y
 #}
 
-#passdb {
-#  driver = static
-#  args = password=test
-#}
+passdb {
+  driver = static
+  args = password=password
+}
 
-#userdb {
-#  driver = static
-#  args = uid=vmail gid=vmail home=/home/%u
-#}
+userdb {
+  driver = static
+#  args = uid=mail gid=mail # home=/home/%u
+}
