@@ -19,5 +19,5 @@ userdb {
   #default_fields = quota_rule=*:storage=1G
 
   # Override fields from passwd-file
-  override_fields = home=/sumarepochta/%n mail_location=mbox:/sumarepochta/%n/mail
+  override_fields = home=/pochta/%n mail_location=mbox:/pochta/%n/mail
 }
